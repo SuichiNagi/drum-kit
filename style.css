@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url('drumset.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.keys {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.key {
+  color: #fff;
+  border: 4px rgba(29, 248, 237, 0.692) solid;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 1rem 0.5rem;
+  width: 100px;
+  text-align: center;
+  transition: 0.07s;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: gold;
+  color: gold;
+}
+
+kbd {
+  display: block;
+  font-size: 30px;
+}
+
+.sound {
+  font-size: 10px;
+}

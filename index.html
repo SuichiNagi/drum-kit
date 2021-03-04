@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Snare</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Tom 8in</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Tom 10in</span>
+        </div>
+        <div data-key="84" class="key">
+            <kbd>T</kbd>
+            <span class="sound">Crash</span>
+        </div>
+        <div data-key="89" class="key">
+            <kbd>Y</kbd>
+            <span class="sound">Splash</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">Floor Tom</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">Close Hi-hat</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">Open Hi-hat</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">Ride Cymbals</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="kit-sounds/Kick.wav"></audio>
+    <audio data-key="83" src="kit-sounds/Snare.wav"></audio>
+    <audio data-key="68" src="kit-sounds/Tom 8in.wav"></audio>
+    <audio data-key="70" src="kit-sounds/Tom 10in.wav"></audio>
+    <audio data-key="84" src="kit-sounds/Crash.wav"></audio>
+    <audio data-key="89" src="kit-sounds/Trash.wav"></audio>
+    <audio data-key="71" src="kit-sounds/Floor Tom.wav"></audio>
+    <audio data-key="74" src="kit-sounds/Hi Hat Acoustic Closed.wav"></audio>
+    <audio data-key="75" src="kit-sounds/Hi Hat Acoustic Open.wav"></audio>
+    <audio data-key="76" src="kit-sounds/Ride Cymbal.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
