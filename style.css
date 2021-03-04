@@ -22,11 +22,10 @@ body {
 }
 
 .key {
-  background: transparent;
   color: #fff;
   border: 4px rgba(29, 248, 237, 0.692) solid;
   border-radius: 5px;
-  margin: 10px;
+  margin: 5px;
   padding: 1rem 0.5rem;
   width: 100px;
   text-align: center;
